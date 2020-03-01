@@ -25,7 +25,8 @@ const sortUser = new mongoose.Schema({
   task: String,
   label: String,
   user_id: String,
-  created_at: {type: Date, defult: new Date()}
+  created_at: { type: Date, default: new Date()},
+  completed : { type : Boolean , default: true }
   // user_id: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
 });
 
@@ -39,3 +40,5 @@ const sortUser = new mongoose.Schema({
 
 module.exports.User = mongoose.model("User", userSchema);
 module.exports.Sort = mongoose.model("Sort", sortUser);
+// module.exports.intagration = mongoose.model("intagration", intagration);
+

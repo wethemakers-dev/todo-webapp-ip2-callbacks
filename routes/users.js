@@ -8,7 +8,7 @@ router.get("/", function(req, res, next) {
   res.send("respond with a resource");
 });
 
-router.post("/singUp", (req, res, next) => {
+router.post("/signUp", (req, res, next) => {
   const uSchema = new DB.User({
     userName: req.body.userName,
     userEmail: req.body.userEmail,

@@ -35,20 +35,41 @@ router.post('/app' , (req , res , next) => {
     res.send(result);
    });
   })
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  router.post('/copmleted' , (req , res ) => {
   
-// router.post('/delete' , (req,res) => {        // must were i have a delete form from front-end
-//   DB.Sort.deleteOne({_id :   } , (err , result) =>{
-//     if(err)throw(err);
-//     res.send(result);
-//   });
-// });
-////////////////////////
+    DB.Sort.replaceOne({completed : req.body.boolean} , (err , result) => {
+     if(err)throw(err); 
+     console.log(result)
+     // DB.Sort.completed.type.boolean.convertToFalse 
+     res.send(result);
+    });
+   })
+
+
+  router.get('/copmleted' , (req , res ) => {
+  
+   DB.Sort.find({completed : req.body.false} , (err , result) => {
+    if(err)throw(err); 
+    console.log(result)
+    // DB.Sort.completed.type.boolean.convertToFalse 
+    res.send(result);
+   });
+  })
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 router.post('/delete' , (req,res) => {        // must were i have a delete form from front-end
-  DB.Sort.remove({ _id :  req.body.id } , (err , result) =>{
+  DB.Sort.findByIdAndDelete({_id : req.body.id  } , (err , result) =>{
     if(err)throw(err);
     res.send(result);
   });
-});
+  });
+  
+
+  //////////////////////////////////////////
+  /////////////////////////////////////////
 
 
 router.get('/search' , (req,res) => {

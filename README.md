@@ -16,7 +16,7 @@ Everything should be saved into a database and handled using a `Node` + `Express
 1. The frontend should be built using `ReactJS`
 2. The backend should be built using `ExpressJS`
 3. The database should be built using `MongoDB`
-4. Using open source `npm` packages is allowed.
+4. Using  source `npm` packages is allowed.
 6. The system must allow users to create accounts.
 8. Logged-in users will stay logged-in across sessions.
 
