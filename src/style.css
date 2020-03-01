@@ -1,0 +1,113 @@
+
+nav.navbar {
+  border: none;
+  background: none;
+ 
+  
+}
+.nav {
+  display: inline-block;
+  float: none;
+  padding-left: 0;
+  
+}
+.navbar-default .navbar-collapse {
+  margin: 9px 0 0;
+}
+.up{
+     
+      top:500px;
+}
+.navbar-default .navbar-nav li button {
+  color: #656565;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 55px;
+  }
+  ul h1 span {
+    color: #1dc9e3;
+  }
+/* content */
+#home {
+    background: #535bd4 url('https://4.imimg.com/data4/XO/XR/MY-4613803/kids-wallpapers-500x500.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+     display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+     align-items: center;
+	 height: 130vh;
+	position: relative;
+	
+}
+
+#home .overlay {
+  background: #4776E6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4776E6 , #8E54E9); /* Chrome 10-25, Safari 5.1-6 */ 
+  background: linear-gradient(to left, #4776E6 , #8E54E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.9;
+  position: absolute;
+  width: 100%;
+  height: 130vh;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#home img {
+  width: 80%;
+  height: 500px;
+}
+
+#home .home-thumb {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+#home .section-btn {
+  background: #1dc9e3;
+  font-size: 30px;
+}
+
+#home .section-btn:hover {
+  background: transparent !important;
+}
+
+/* footer */
+footer {
+	background-color: #000;
+	color: #ffffff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+  }
+  
+  footer span {
+	padding-right: 10px;
+	padding-left: 10px;
+  }
+  
+  footer p {
+	padding-top: 16px;
+  }
+  
+       
+  /*Model*/
+ .modal-body {
+    color: #fff;
+    background-color: #8E54E9;
+}
+.modal-body h2 { 
+    font-size: 30px;
+}
+
