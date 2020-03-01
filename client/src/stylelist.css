@@ -1,0 +1,86 @@
+
+nav.navbar {
+    border: none;
+    background: none; 
+    border-bottom: 5px solid #1dc9e3 ;
+  }
+  .nav {
+    display: inline-block;
+    float: none;
+    padding-left: 0;
+    
+  }
+  .navbar-default .navbar-collapse {
+    margin: 9px 0 0;
+  }
+  .navbar-default .navbar-nav li button {
+    color: #656565;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 55px;
+    background-color:  #1dc9e3;}
+    ul h1 span {
+     color: #1dc9e3;
+    }
+    .plus{
+      background-color: #1dc9e3;
+    }
+   
+  
+  
+  
+  
+  
+    /*Model*/
+   .modal-body {
+      color: #fff;
+      background-color: #8E54E9;
+  }
+  .modal-body h2 { 
+      font-size: 30px;
+  }
+  
+  
+  /*sidebar*/
+  .sidebar{
+    display:flex;
+    align-items: center;
+    border-right: 5px solid #1dc9e3 ;
+    width: 20%;
+  
+  }
+  .sidebar li{
+  list-style: none;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  }
+  .labelstyle{
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .model{
+    font-size: 30px;
+    color: #1dc9e3;
+    bottom: 50%;
+  }
+  .radio{
+    list-style: none;
+  }
+  .contentTask{
+    
+    margin-top: -428px;
+    font-size: 17px;
+    position: relative;
+    left:600px;
+    font-size: 25px;
+    /*color:#1dc9e3; */
+    
+    
+  }
+  
